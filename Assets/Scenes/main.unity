@@ -1072,6 +1072,7 @@ MonoBehaviour:
   columnMin: -3.8
   columnMax: 0
   objectStartPos: {x: -25, y: -25}
+  spawnXPosition: 5
 --- !u!4 &1324235989
 Transform:
   m_ObjectHideFlags: 0

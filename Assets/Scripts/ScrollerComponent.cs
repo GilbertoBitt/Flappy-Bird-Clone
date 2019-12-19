@@ -17,9 +17,9 @@ public class ScrollerComponent : MonoBehaviour
         if(GameController.Instance.gameOver == true)
         {
             rigidbody2D.velocity = Vector2.zero;
-        }
+        } 
 
-        if (rigidbody2D.velocity.x <= 0f && GameController.Instance.hasStarted)
+        if (rigidbody2D.velocity.x <= 0f && GameController.Instance.hasStarted && GameController.Instance.gameOver == false)
         {
             rigidbody2D.velocity = Vector2.right * GameController.Instance.scrollSpeed;
         }

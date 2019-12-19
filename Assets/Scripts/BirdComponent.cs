@@ -37,6 +37,7 @@ public class BirdComponent : MonoBehaviour
     {
         
         rigidbody.velocity = Vector2.zero;
+        rigidbody.bodyType = RigidbodyType2D.Kinematic;
         isDead = true;
         animator.SetTrigger (Die);
         GameController.Instance.BirdDied();
