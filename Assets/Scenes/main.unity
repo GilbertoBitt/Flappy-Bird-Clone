@@ -1067,7 +1067,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   columnPrefab: {fileID: 308631075289495410, guid: 0462e4d6e634ec8498e539cd25d8b5c4,
     type: 3}
-  columnPoolSize: 5
+  columnPoolSize: 20
   spawnRate: 3
   columnMin: -3.8
   columnMax: 0
@@ -1328,7 +1328,7 @@ RectTransform:
   m_AnchorMin: {x: 0.16534448, y: 0.01688324}
   m_AnchorMax: {x: 0.83765554, y: 0.114116766}
   m_AnchoredPosition: {x: -0.5, y: 0}
-  m_SizeDelta: {x: -1, y: -2}
+  m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1914189350
 MonoBehaviour:
@@ -1344,7 +1344,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1377,7 +1377,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 49.6
+  m_fontSize: 72
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1599,7 +1599,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.16900001, y: 0.7337005}
   m_AnchorMax: {x: 0.8412006, y: 0.8276498}
-  m_AnchoredPosition: {x: -1.5250015, y: 0.9620056}
+  m_AnchoredPosition: {x: -1.5249939, y: 0.9620056}
   m_SizeDelta: {x: -1, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2087957975

@@ -10,7 +10,7 @@ public class ColumnPool : MonoBehaviour
     public float columnMin = -1f;
     public float columnMax = 3.5f;
     public Vector2 objectStartPos;
-    private float spawnXPosition = 10f;
+    public float spawnXPosition = 5f;
     private float _timeSinceLastSpawned;
     public Queue<GameObject> columnPool = new Queue<GameObject>();
     
