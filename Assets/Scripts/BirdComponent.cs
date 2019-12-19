@@ -11,7 +11,7 @@ public class BirdComponent : MonoBehaviour
     public bool isDead = false;
     public float jumpForce;
     private static readonly int Flap = Animator.StringToHash("Flap");
-    private static readonly int Die = Animator.StringToHash("Die");
+    private static readonly int Dead = Animator.StringToHash("Dead");
 
     private void Start()
     {
@@ -37,9 +37,8 @@ public class BirdComponent : MonoBehaviour
     {
         
         rigidbody.velocity = Vector2.zero;
-        rigidbody.bodyType = RigidbodyType2D.Kinematic;
+        animator.SetTrigger (Dead);
         isDead = true;
-        animator.SetTrigger (Die);
         GameController.Instance.BirdDied();
     }
     
